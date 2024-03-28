@@ -22,6 +22,16 @@ export const projectsData = [
         demo: '',
         image: ''
     },
+    {
+        id:3 ,
+        name: 'NFT landing page',
+        description: "Welcome to Our NFT Landing Page! This project showcases a visually captivating interface designed to introduce users to the concept of Non-Fungible Tokens (NFTs). Developed using React, the landing page offers a glimpse into the potential of digital ownership and artistry. While it doesn't feature functional capabilities, its purpose is to inspire curiosity and exploration within the realm of NFTs. Dive into this project to witness the fusion of creativity and technology, and envision the possibilities of digital collectibles.",
+        tools: ['Reactjs', 'CSS',  "JavaScript", "HTML"],
+        role: 'Full Stack Developer',
+        code: '',
+        demo: '',
+        image: ''
+    },
     
 ];
 

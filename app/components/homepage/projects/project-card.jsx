@@ -55,6 +55,11 @@ function ProjectCard({ project }) {
             <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
             <span className="text-orange-400">{project.role}</span>
             <span className="text-gray-400">,</span>
+
+            <span className="ml-4 lg:ml-8 mr-2 text-white">Link:</span>
+            <span className="text-orange-400"><a href='https://nft-website-rho.vercel.app/'>{project.name}</a></span>
+            <span className="text-gray-400">,</span>
+            
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Description:</span>
