@@ -11,10 +11,5 @@ export const educations = [
     duration: "",
     institution: "Udemy",
   },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "",
-    institution: "Njiiri School",
-  }
+  
 ]
