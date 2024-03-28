@@ -9,6 +9,7 @@ export const projectsData = [
         tools: ['Express', 'PostgreSQL', 'OpenAI API', 'AWS SES', 'mailgun', 'Joi', 'Replicate API','Nginx'],
         role: 'Backend Developer',
         code: '',
+        link: '#',
         demo: '',
         image: '',
     },
@@ -19,6 +20,7 @@ export const projectsData = [
         tools: ['NextJS', 'Tailwind CSS', "Google Maps", "PostgreSQL", "JavaScript", "OpenAI API"],
         role: 'Full Stack Developer',
         code: '',
+        link: '#',
         demo: '',
         image: ''
     },
