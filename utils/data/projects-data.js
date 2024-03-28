@@ -37,7 +37,7 @@ export const projectsData = [
         id:4 ,
         name: 'Hotel website',
         description: "Hotel Website: Seamlessly blending style and functionality, this project presents a modern and responsive platform to explore a hotel's offerings. From elegant room showcases to intuitive booking forms and detailed service listings, users can immerse themselves in an engaging experience crafted with HTML, CSS, and JavaScript.",
-        tools: ['Reactjs', 'CSS',  "JavaScript", "HTML"],
+        tools: ['HTML',  "CSS", "JavaScript"],
         role: 'Full Stack Developer',
         link: 'https://jaspermunene.github.io/hotel/',
         code: '',
