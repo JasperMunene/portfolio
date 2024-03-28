@@ -105,9 +105,11 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">PostgreSQL</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redis</span>
+                <span className="text-amber-300">HTML</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Docker</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Tailwind CSS </span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"'],"}</span>
