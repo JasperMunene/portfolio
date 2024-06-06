@@ -42,7 +42,7 @@ export const projectsData = [
         tools: ['Wordpress'],
         role: 'Full Stack Developer',
         code: '',
-        link: '#',
+        link: 'https://its-cozy.com/',
         demo: '',
         image: ''
     },
