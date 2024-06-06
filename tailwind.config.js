@@ -1,5 +1,3 @@
-const { Lilita_One } = require('next/font/google');
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -28,9 +26,7 @@ module.exports = {
         "4k": "1980px",
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
-        Lilita_One: ['Lilita One', 'sans-serif'],
+        lilita: ['Lilita One', 'sans-serif'], 
       },
     },
   },
