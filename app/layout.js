@@ -1,4 +1,5 @@
 import { GoogleTagManager } from '@next/third-parties/google';
+import { Lilita_One } from 'next/font/google';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/footer';
@@ -6,7 +7,11 @@ import Navbar from './components/navbar';
 import './css/card.scss';
 import './css/globals.scss';
 
-
+const lilitaOne = Lilita_One({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-lilita-one'
+});
 
 export const metadata = {
   title: 'Portfolio of Jasper Munene',
