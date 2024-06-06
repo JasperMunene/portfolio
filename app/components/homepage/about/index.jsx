@@ -18,15 +18,15 @@ function AboutSection() {
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
             Who I am?
           </p>
-          <p className="text-gray-200 text-sm lg:text-lg">
+          <p className="text-gray-300 text-sm lg:text-lg tracking-wide">
             {personalData.description}
           </p>
         </div>
         <div className="flex justify-center order-1 lg:order-2">
           <Image
             src={personalData.profile}
-            width={280}
-            height={190}
+            width={400}
+            height={400}
             alt="Abu Said"
             className=" transition-all duration-1000  hover:scale-110 cursor-pointer"
           />

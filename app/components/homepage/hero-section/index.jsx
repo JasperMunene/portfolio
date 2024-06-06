@@ -32,20 +32,20 @@ function HeroSection() {
           </h1>
 
           <div className="my-12 flex items-center gap-5">
-            <Link
+            {/* <Link
               href={personalData.github}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href={personalData.linkedIn}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsLinkedin size={30} />
-            </Link>
+            </Link> */}
           </div>
 
           <div className="flex items-center gap-3">
@@ -107,11 +107,11 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">HTML</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Docker</span>
+                <span className="text-amber-300">MongoDB</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Tailwind CSS </span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
+                <span className="text-amber-300">Vercel</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
