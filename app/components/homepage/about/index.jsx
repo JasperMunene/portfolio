@@ -18,7 +18,7 @@ function AboutSection() {
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
             Who I am?
           </p>
-          <p className="text-gray-300 text-sm lg:text-lg tracking-wide">
+          <p className="text-gray-300 text-sm lg:text-lg tracking-wider">
             {personalData.description}
           </p>
         </div>
@@ -27,7 +27,7 @@ function AboutSection() {
             src={personalData.profile}
             width={400}
             height={400}
-            alt="Abu Said"
+            alt="coder"
             className=" transition-all duration-1000  hover:scale-110 cursor-pointer"
           />
         </div>
