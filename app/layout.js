@@ -1,5 +1,5 @@
 import { GoogleTagManager } from '@next/third-parties/google';
-import { Inter,Poppins, Montserrat } from 'next/font/google';
+import { Inter,Lilita_One, } from 'next/font/google';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/footer';
@@ -7,17 +7,14 @@ import Navbar from './components/navbar';
 import './css/card.scss';
 import './css/globals.scss';
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
-const poppins = Poppins({
+const lilitaOne = Lilita_One({
   subsets: ['latin'],
-  weight: ['400', '700'],
-  variable: '--font-ibm-plex-serif'
+  weight: ['400'],
+  variable: '--font-lilita-one'
 })
 
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  variable: '--font-montserrat'
-})
+
+
 
 export const metadata = {
   title: 'Portfolio of Jasper munene',
@@ -27,7 +24,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${poppins.variable} ${montserrat.variable}`}>
+      <body className={`${inter.variable} ${lilitaOne.variable}`}>
         <ToastContainer />
         <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
           <Navbar />
