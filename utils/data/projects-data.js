@@ -4,31 +4,20 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'Bookstore',
-        description: "Me and my team built a bookstore. I have developed API using Express, javascript, OpenAI, AWS, and postgreSQL.  Integrating AI features into the platform by leveraging OpenAI's latest models to enhance search functionalities, personalized recommendations, and content analysis for enriched user engagement.",
-        tools: ['Express', 'PostgreSQL', 'OpenAI API', 'AWS SES', 'mailgun', 'Joi', 'Replicate API','Nginx'],
-        role: 'Backend Developer',
+        name: 'Zoomify',
+        description: "I built Zoomify, a sleek and secure video conferencing app using Next.js, TypeScript, and Tailwind CSS. It offers seamless authentication, real-time video chat, and a user-friendly interface, making virtual meetings effortless and efficient.",
+        tools: ['Typescript', 'Nextjs', 'TailwindCSS', 'Clerk', 'ShadCn', 'Vercel'],
+        role: 'Fullstack Developer',
         code: '',
-        link: '#',
+        link: 'https://zoomify-jasper.vercel.app/',
         demo: '',
         image: '',
     },
     {
-        id: 2,
-        name: 'Qickship - Under Construction',
-        description: "I'm currently leading the development of an eCommerce delivery app using React and complementary tech. Responsibilities include: Building a robust Express.js backend with JavaScript, ensuring efficient communication with PostgreSQL for data management and Integrating Google Maps API for location tracking, route optimization, and accurate delivery estimates.",
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "PostgreSQL", "JavaScript", "OpenAI API"],
-        role: 'Full Stack Developer',
-        code: '',
-        link: '#',
-        demo: '',
-        image: ''
-    },
-    {
-        id:3 ,
+        id:2 ,
         name: 'NFT landing page',
-        description: "Welcome to Our NFT Landing Page! This project showcases a visually captivating interface designed to introduce users to the concept of Non-Fungible Tokens (NFTs). Developed using React, the landing page offers a glimpse into the potential of digital ownership and artistry. While it doesn't feature functional capabilities, its purpose is to inspire curiosity and exploration within the realm of NFTs. Dive into this project to witness the fusion of creativity and technology, and envision the possibilities of digital collectibles.",
-        tools: ['Reactjs', 'CSS',  "JavaScript", "HTML"],
+        description: "I built an engaging NFT landing page using React, JavaScript, and CSS. It showcases stunning digital art, features seamless navigation, and provides an intuitive user experience, making it the perfect gateway for exploring and purchasing unique NFTs.",
+        tools: ['Reactjs', 'Vercel', 'CSS',  "JavaScript", "HTML"],
         role: 'Full Stack Developer',
         link: 'https://nft-website-rho.vercel.app/',
         code: '',
@@ -36,7 +25,7 @@ export const projectsData = [
         image: ''
     },
     {
-        id:4 ,
+        id:3 ,
         name: 'Hotel website',
         description: "Hotel Website: Seamlessly blending style and functionality, this project presents a modern and responsive platform to explore a hotel's offerings. From elegant room showcases to intuitive booking forms and detailed service listings, users can immerse themselves in an engaging experience crafted with HTML, CSS, and JavaScript.",
         tools: ['HTML',  "CSS", "JavaScript"],
@@ -46,6 +35,19 @@ export const projectsData = [
         demo: '',
         image: ''
     },
+    {
+        id: 4,
+        name: 'Qickship - Under Construction',
+        description: "I'm currently leading the development of an eCommerce delivery app using React and complementary tech. Responsibilities include: Building a robust Express.js backend with JavaScript, ensuring efficient communication with PostgreSQL for data management and Integrating Google Maps API for location tracking, route optimization, and accurate delivery estimates.",
+        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "PostgreSQL", "JavaScript", "OpenAI API"],
+        role: 'Full Stack Developer',
+        code: '',
+        link: '#',
+        demo: '',
+        image: ''
+    },
+    
+   
     
 ];
 
