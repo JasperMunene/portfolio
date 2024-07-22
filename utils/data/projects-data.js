@@ -37,12 +37,12 @@ export const projectsData = [
     },
     {
         id: 4,
-        name: 'Its Cozy',
-        description: "I worked on building a WordPress ecommerce site for showcasing clothing items, focusing on user-friendly design and smooth shopping.",
-        tools: ['Wordpress'],
+        name: 'Mortgage Calculator',
+        description: "Responsive Mortgage Calculator",
+        tools: ['React', 'Tailwind Css'],
         role: 'Full Stack Developer',
         code: '',
-        link: 'https://its-cozy.com/',
+        link: 'https://mortgagecalculator0.netlify.app/',
         demo: '',
         image: ''
     },
