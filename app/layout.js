@@ -1,5 +1,5 @@
 import { GoogleTagManager } from '@next/third-parties/google';
-import { Lilita_One } from 'next/font/google';
+import { Afacad } from 'next/font/google';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/footer';
@@ -7,10 +7,10 @@ import Navbar from './components/navbar';
 import './css/card.scss';
 import './css/globals.scss';
 
-const lilitaOne = Lilita_One({
+const afacad = Afacad({
   subsets: ['latin'],
   weight: ['400'],
-  variable: '--font-lilita-one'
+  variable: '--font-afacad'
 });
 
 export const metadata = {
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
       </head>
-      <body className={lilitaOne.className}>
+      <body className={afacad.className}>
         <ToastContainer />
         <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
           <Navbar />
