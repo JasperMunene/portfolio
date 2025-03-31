@@ -14,9 +14,10 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: 'Jasper Munene',
-  description: 'This is the portfolio of Jasper Munene.',
+  title: 'Jasper Munene | Software Engineer, SEO Specialist & Tech Innovator',
+  description: 'Explore the portfolio of Jasper Munene, a seasoned software engineer and SEO specialist. Discover innovative tech projects and cutting-edge web solutions.',
 };
+
 
 export default function RootLayout({ children }) {
   return (
